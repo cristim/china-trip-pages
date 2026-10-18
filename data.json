@@ -1,0 +1,738 @@
+{
+  "cities": [
+    {
+      "name": "Shanghai",
+      "region": "21–23 OCT · 2 nights",
+      "arrow": "01",
+      "day": "21 OCT",
+      "photo": "shanghai",
+      "transfer": "From Ho Chi Minh City · flight 02:35–07:40",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    {
+      "name": "Wuzhen",
+      "region": "23 OCT · East Scenic Area",
+      "arrow": "02",
+      "day": "23 OCT",
+      "photo": "wuzhen",
+      "transfer": "Transfer by road from Shanghai",
+      "lat": 30.6393,
+      "lng": 120.495
+    },
+    {
+      "name": "Hangzhou",
+      "region": "23–24 OCT · 1 night",
+      "arrow": "03",
+      "day": "23 OCT",
+      "photo": "hangzhou",
+      "transfer": "Continue by road from Wuzhen",
+      "lat": 30.2741,
+      "lng": 120.1551
+    },
+    {
+      "name": "Suzhou",
+      "region": "24–25 OCT · 1 night",
+      "arrow": "04",
+      "day": "24 OCT",
+      "photo": "wuzhen",
+      "transfer": "Transfer by road from Hangzhou",
+      "lat": 31.2989,
+      "lng": 120.5853
+    },
+    {
+      "name": "Beijing",
+      "region": "25–27 OCT · 2 nights",
+      "arrow": "05",
+      "day": "25 OCT",
+      "photo": "beijing",
+      "transfer": "High-speed train from Suzhou",
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    {
+      "name": "Hong Kong",
+      "region": "27–29 OCT · 2 nights",
+      "arrow": "06",
+      "day": "27 OCT",
+      "photo": "hong-kong",
+      "transfer": "Flight from Beijing · 19:00–22:45",
+      "lat": 22.3193,
+      "lng": 114.1694
+    },
+    {
+      "name": "Macau",
+      "region": "29–30 OCT · 1 night",
+      "arrow": "07",
+      "day": "29 OCT",
+      "photo": "macau",
+      "transfer": "Star Ferry + Golden Bus across the bridge",
+      "lat": 22.1987,
+      "lng": 113.5439
+    },
+    {
+      "name": "Shenzhen",
+      "region": "30 OCT–01 NOV · 2 nights",
+      "arrow": "08",
+      "day": "30 OCT",
+      "photo": "shenzhen",
+      "transfer": "Gongbei land border crossing · by car",
+      "lat": 22.5431,
+      "lng": 114.0579
+    },
+    {
+      "name": "Guangzhou",
+      "region": "01–02 NOV · final night",
+      "arrow": "09",
+      "day": "01 NOV",
+      "photo": "shenzhen",
+      "transfer": "Transfer from Shenzhen · mode not specified",
+      "lat": 23.1291,
+      "lng": 113.2644
+    }
+  ],
+  "daySets": {
+    "1": [
+      [
+        "21 OCT",
+        "Ho Chi Minh City → Shanghai",
+        "Flight & arrival in Shanghai",
+        "Flight 02:35–07:40. Tour notes list a cruise (outside view), Starbucks, lunch and a rest at the hotel, then Lujiazui. Dinner and overnight in Shanghai.",
+        "Flight · Shanghai",
+        {
+          "name": "Shanghai",
+          "region": "21–23 OCT · 2 nights",
+          "arrow": "01",
+          "day": "21 OCT",
+          "photo": "shanghai",
+          "transfer": "From Ho Chi Minh City · flight 02:35–07:40"
+        }
+      ],
+      [
+        "22 OCT",
+        "Shanghai",
+        "Temples, lanes & the Bund",
+        "Jade Buddha Temple and City God Temple; Nanjing Road, the Bund and an exterior view of the Oriental Pearl Tower. Dinner and overnight in Shanghai.",
+        "Shanghai",
+        {
+          "name": "Shanghai",
+          "region": "21–23 OCT · 2 nights",
+          "arrow": "01",
+          "day": "21 OCT",
+          "photo": "shanghai",
+          "transfer": "From Ho Chi Minh City · flight 02:35–07:40"
+        }
+      ],
+      [
+        "23 OCT",
+        "Shanghai → Wuzhen → Hangzhou",
+        "From the water town to West Lake",
+        "Transfer to Wuzhen and visit Dongzha (East Scenic Area). Continue to Hangzhou for a West Lake cruise and Yue Fei Temple. Overnight in Hangzhou.",
+        "Road · cruise",
+        {
+          "name": "Wuzhen",
+          "region": "23 OCT · East Scenic Area",
+          "arrow": "02",
+          "day": "23 OCT",
+          "photo": "wuzhen",
+          "transfer": "Transfer by road from Shanghai"
+        }
+      ],
+      [
+        "24 OCT",
+        "Hangzhou → Suzhou",
+        "Temple & garden city",
+        "Transfer to Suzhou. Visit Hanshan Temple and Lingering Garden. Dinner and overnight in Suzhou.",
+        "Road · Suzhou",
+        {
+          "name": "Suzhou",
+          "region": "24–25 OCT · 1 night",
+          "arrow": "04",
+          "day": "24 OCT",
+          "photo": "wuzhen",
+          "transfer": "Transfer by road from Hangzhou"
+        }
+      ]
+    ],
+    "2": [
+      [
+        "25 OCT",
+        "Suzhou → Beijing",
+        "North by high-speed rail",
+        "Take the high-speed train to Beijing. Visit the Summer Palace after lunch. Overnight in Beijing.",
+        "High-speed train",
+        {
+          "name": "Beijing",
+          "region": "25–27 OCT · 2 nights",
+          "arrow": "05",
+          "day": "25 OCT",
+          "photo": "beijing",
+          "transfer": "High-speed train from Suzhou"
+        }
+      ],
+      [
+        "26 OCT",
+        "Beijing",
+        "The Great Wall & Ming Tombs",
+        "Visit the Great Wall at Juyongguan Pass and the Ming Tombs (Changling). Optional Imperial Court Banquet; VIP and Near-VIP seating prices are noted in the tour document. Overnight in Beijing.",
+        "Juyongguan · Changling",
+        {
+          "name": "Beijing",
+          "region": "25–27 OCT · 2 nights",
+          "arrow": "05",
+          "day": "25 OCT",
+          "photo": "beijing",
+          "transfer": "High-speed train from Suzhou"
+        }
+      ],
+      [
+        "27 OCT",
+        "Beijing → Hong Kong",
+        "Imperial Beijing, then fly south",
+        "Visit the Forbidden City; if tickets are unavailable, the tour substitutes the Temple of Heaven. Also visit Prince Gong’s Mansion. Airport transfer and flight to Hong Kong, 19:00–22:45.",
+        "Flight · 19:00–22:45",
+        {
+          "name": "Beijing",
+          "region": "25–27 OCT · 2 nights",
+          "arrow": "05",
+          "day": "25 OCT",
+          "photo": "beijing",
+          "transfer": "High-speed train from Suzhou"
+        }
+      ]
+    ],
+    "3": [
+      [
+        "28 OCT",
+        "Hong Kong",
+        "The city from street to summit",
+        "Sightseeing day (tour notes: 10 hours by bus): Ladies’ Market, Avenue of Stars, a Ding Ding tram ride, Victoria Peak and Repulse Bay. Dinner and overnight in Hong Kong.",
+        "Hong Kong",
+        {
+          "name": "Hong Kong",
+          "region": "27–29 OCT · 2 nights",
+          "arrow": "06",
+          "day": "27 OCT",
+          "photo": "hong-kong",
+          "transfer": "Flight from Beijing · 19:00–22:45"
+        }
+      ],
+      [
+        "29 OCT",
+        "Hong Kong → Macau",
+        "Across Victoria Harbour & the bridge",
+        "One-way Star Ferry ride to explore Victoria Harbour and Wan Chai Bay; visit the Clock Tower and two designated shops. After lunch, take the Golden Bus across the Hong Kong–Macau–Zhuhai bridge. Overnight in Macau.",
+        "Ferry · Golden Bus",
+        {
+          "name": "Macau",
+          "region": "29–30 OCT · 1 night",
+          "arrow": "07",
+          "day": "29 OCT",
+          "photo": "macau",
+          "transfer": "Star Ferry + Golden Bus across the bridge"
+        }
+      ],
+      [
+        "30 OCT",
+        "Macau → Shenzhen",
+        "Historic Macau, onward to Shenzhen",
+        "Visit the Ruins of St. Paul’s, Penha Hill, A-Ma Temple and Our Lady of Penha Church. After lunch, travel by car via the Gongbei land border crossing. Overnight in Shenzhen.",
+        "Gongbei border · car",
+        {
+          "name": "Shenzhen",
+          "region": "30 OCT–01 NOV · 2 nights",
+          "arrow": "08",
+          "day": "30 OCT",
+          "photo": "shenzhen",
+          "transfer": "Gongbei land border crossing · by car"
+        }
+      ],
+      [
+        "31 OCT",
+        "Shenzhen",
+        "Culture village & market streets",
+        "Visit Splendid China and China Folk Culture Village, including two shows, then Dongmen Market. Dinner and overnight in Shenzhen.",
+        "Shenzhen",
+        {
+          "name": "Shenzhen",
+          "region": "30 OCT–01 NOV · 2 nights",
+          "arrow": "08",
+          "day": "30 OCT",
+          "photo": "shenzhen",
+          "transfer": "Gongbei land border crossing · by car"
+        }
+      ],
+      [
+        "01 NOV",
+        "Shenzhen → Guangzhou",
+        "From Huaqiangbei to old Guangzhou",
+        "Visit Huaqiangbei Street, then transfer to Guangzhou. Explore Yongqing Fang, Bruce Lee’s former residence, Dafo Temple and Beijing Road Pedestrian Street. Overnight in Guangzhou.",
+        "Transfer · mode unspecified",
+        {
+          "name": "Guangzhou",
+          "region": "01–02 NOV · final night",
+          "arrow": "09",
+          "day": "01 NOV",
+          "photo": "shenzhen",
+          "transfer": "Transfer from Shenzhen · mode not specified"
+        }
+      ],
+      [
+        "02 NOV",
+        "Guangzhou → Ho Chi Minh City",
+        "One last market, then home",
+        "Visit Baima Market and stop for photos outside Canton Tower. Transfer to the airport for the 13:05–15:05 flight to Ho Chi Minh City.",
+        "Flight · 13:05–15:05",
+        {
+          "name": "Guangzhou",
+          "region": "01–02 NOV · final night",
+          "arrow": "09",
+          "day": "01 NOV",
+          "photo": "shenzhen",
+          "transfer": "Transfer from Shenzhen · mode not specified"
+        }
+      ]
+    ]
+  },
+  "guides": [
+    {
+      "place": "Shanghai",
+      "topic": "A city of crossings",
+      "text": "Shanghai grew into a major port where Chinese, European and global influences met. The Bund’s historic riverfront faces Pudong’s modern skyline across the Huangpu.",
+      "photo": "shanghai"
+    },
+    {
+      "place": "Wuzhen · Hangzhou · Suzhou",
+      "topic": "Water, gardens, scholarship",
+      "text": "The Jiangnan region is shaped by canals, lakes and cultivated landscapes. Suzhou’s classical gardens compress mountains, water and architecture into contemplative spaces.",
+      "photo": "wuzhen"
+    },
+    {
+      "place": "Beijing",
+      "topic": "The imperial centre",
+      "text": "For centuries Beijing was the seat of dynasties. The Forbidden City, its gates and ceremonial axes reflect the order and scale of imperial rule.",
+      "photo": "beijing"
+    },
+    {
+      "place": "Hong Kong · Macau",
+      "topic": "Two port histories",
+      "text": "Both cities grew through maritime trade and layered colonial histories. Their food, architecture and everyday rhythms carry Cantonese roots alongside global influences.",
+      "photo": "hong-kong"
+    },
+    {
+      "place": "Shenzhen · Guangzhou",
+      "topic": "The Pearl River Delta",
+      "text": "The delta has long connected inland China to the sea. Today it is one of the world’s most dynamic urban regions, with deep Cantonese food and cultural traditions.",
+      "photo": "shenzhen"
+    },
+    {
+      "place": "At the table",
+      "topic": "Taste the region",
+      "text": "Look for Shanghai soup dumplings, Hangzhou tea and lake fish, Suzhou noodles, Beijing roast duck and Cantonese dim sum. Ask about allergens and local specialties.",
+      "photo": "cuisine"
+    }
+  ],
+  "tasks": {
+    "DOCUMENTS": [
+      "Passport and visa requirements checked",
+      "Travel insurance details saved offline",
+      "Tour confirmation and hotel list downloaded",
+      "Flight and rail tickets easy to find",
+      "Emergency contacts saved"
+    ],
+    "STAY CONNECTED": [
+      "Roaming or eSIM plan arranged",
+      "Offline translation app and Chinese downloaded",
+      "Offline maps saved for each city",
+      "VPN access checked if needed"
+    ],
+    "PACKING": [
+      "Comfortable walking shoes",
+      "Layers for late October weather",
+      "Power adapter and charging cable",
+      "Small day bag and refillable water bottle",
+      "Any regular medication packed"
+    ]
+  },
+  "tripNotes": {
+    "exchangeRate": "1 USD = 26,000 VND",
+    "guide": "A Vietnamese tour guide and an additional Chinese tour guide",
+    "vietnamArrival": {
+      "due": "Submit the Vietnam arrival form three days before entry; print the QR code.",
+      "formUrl": "https://prearrival.immigration.gov.vn"
+    },
+    "connectivity": {
+      "wifiRental": "USD 30–38 for 13 days",
+      "simOptions": [
+        "VND 800,000 for 3 GB/day",
+        "VND 1,000,000 for unlimited data"
+      ]
+    },
+    "reminders": [
+      "Bring a jacket and hat for chilly Beijing.",
+      "Meet at Tan Son Nhat by 5 a.m. on 21 October.",
+      "Check passports and multiple-entry Vietnam visas.",
+      "Wait outside the gate for a head count.",
+      "If anyone arrives early in Shanghai, wait at the Vietnam Airlines baggage claim."
+    ],
+    "flightDiscrepancy": {
+      "flight": "VN524",
+      "email": "07:20–12:40",
+      "tourDocument": "02:35–07:40",
+      "status": "Needs confirmation before publishing"
+    }
+  },
+  "places": [
+    {
+      "city": "Shanghai",
+      "day": "21 OCT",
+      "name": "Lujiazui",
+      "zh": "陆家嘴",
+      "lat": 31.2397,
+      "lng": 121.4998,
+      "note": "Financial district on the Pudong side of the Huangpu"
+    },
+    {
+      "city": "Shanghai",
+      "day": "21 OCT",
+      "name": "Huangpu River cruise (LV exterior view)",
+      "zh": "黄浦江",
+      "lat": 31.2405,
+      "lng": 121.49,
+      "note": "Cruise; tour notes also list a Louis Vuitton exterior view and a Starbucks stop"
+    },
+    {
+      "city": "Shanghai",
+      "day": "22 OCT",
+      "name": "Jade Buddha Temple",
+      "zh": "玉佛禅寺",
+      "lat": 31.2418,
+      "lng": 121.4426,
+      "note": ""
+    },
+    {
+      "city": "Shanghai",
+      "day": "22 OCT",
+      "name": "City God Temple",
+      "zh": "城隍庙",
+      "lat": 31.2272,
+      "lng": 121.492,
+      "note": ""
+    },
+    {
+      "city": "Shanghai",
+      "day": "22 OCT",
+      "name": "Nanjing Road",
+      "zh": "南京路",
+      "lat": 31.2358,
+      "lng": 121.48,
+      "note": "Pedestrian shopping street"
+    },
+    {
+      "city": "Shanghai",
+      "day": "22 OCT",
+      "name": "The Bund",
+      "zh": "外滩",
+      "lat": 31.24,
+      "lng": 121.4903,
+      "note": ""
+    },
+    {
+      "city": "Shanghai",
+      "day": "22 OCT",
+      "name": "Oriental Pearl Tower (exterior)",
+      "zh": "东方明珠",
+      "lat": 31.2397,
+      "lng": 121.4998,
+      "note": "Exterior view only"
+    },
+    {
+      "city": "Wuzhen",
+      "day": "23 OCT",
+      "name": "Dongzha (East Scenic Area)",
+      "zh": "乌镇东栅",
+      "lat": 30.6393,
+      "lng": 120.495,
+      "note": "Canal town"
+    },
+    {
+      "city": "Hangzhou",
+      "day": "23 OCT",
+      "name": "West Lake cruise",
+      "zh": "西湖",
+      "lat": 30.246,
+      "lng": 120.14,
+      "note": ""
+    },
+    {
+      "city": "Hangzhou",
+      "day": "23 OCT",
+      "name": "Yue Fei Temple",
+      "zh": "岳王庙",
+      "lat": 30.25,
+      "lng": 120.1283,
+      "note": ""
+    },
+    {
+      "city": "Suzhou",
+      "day": "24 OCT",
+      "name": "Hanshan Temple",
+      "zh": "寒山寺",
+      "lat": 31.3184,
+      "lng": 120.574,
+      "note": ""
+    },
+    {
+      "city": "Suzhou",
+      "day": "24 OCT",
+      "name": "Lingering Garden",
+      "zh": "留园",
+      "lat": 31.319,
+      "lng": 120.589,
+      "note": ""
+    },
+    {
+      "city": "Beijing",
+      "day": "25 OCT",
+      "name": "Summer Palace",
+      "zh": "颐和园",
+      "lat": 39.9999,
+      "lng": 116.2755,
+      "note": ""
+    },
+    {
+      "city": "Beijing",
+      "day": "26 OCT",
+      "name": "Great Wall at Juyongguan Pass",
+      "zh": "居庸关",
+      "lat": 40.287,
+      "lng": 116.07,
+      "note": ""
+    },
+    {
+      "city": "Beijing",
+      "day": "26 OCT",
+      "name": "Ming Tombs (Changling)",
+      "zh": "长陵",
+      "lat": 40.255,
+      "lng": 116.24,
+      "note": "Thirteen Tombs area"
+    },
+    {
+      "city": "Beijing",
+      "day": "27 OCT",
+      "name": "Forbidden City",
+      "zh": "故宫",
+      "lat": 39.9163,
+      "lng": 116.3972,
+      "note": "If tickets are unavailable the tour substitutes the Temple of Heaven"
+    },
+    {
+      "city": "Beijing",
+      "day": "27 OCT",
+      "name": "Temple of Heaven (alternative)",
+      "zh": "天坛",
+      "lat": 39.8822,
+      "lng": 116.4066,
+      "note": "Only if Forbidden City tickets are unavailable"
+    },
+    {
+      "city": "Beijing",
+      "day": "27 OCT",
+      "name": "Prince Gong’s Mansion",
+      "zh": "恭王府",
+      "lat": 39.9373,
+      "lng": 116.3875,
+      "note": ""
+    },
+    {
+      "city": "Hong Kong",
+      "day": "28 OCT",
+      "name": "Ladies’ Market",
+      "zh": "女人街",
+      "lat": 22.3191,
+      "lng": 114.1722,
+      "note": ""
+    },
+    {
+      "city": "Hong Kong",
+      "day": "28 OCT",
+      "name": "Avenue of Stars",
+      "zh": "星光大道",
+      "lat": 22.2933,
+      "lng": 114.174,
+      "note": ""
+    },
+    {
+      "city": "Hong Kong",
+      "day": "28 OCT",
+      "name": "Ding Ding tram ride",
+      "zh": "叮叮",
+      "lat": 22.282,
+      "lng": 114.158,
+      "note": "One experience ride; route not specified in the tour document"
+    },
+    {
+      "city": "Hong Kong",
+      "day": "28 OCT",
+      "name": "Victoria Peak",
+      "zh": "太平山顶",
+      "lat": 22.2759,
+      "lng": 114.1455,
+      "note": ""
+    },
+    {
+      "city": "Hong Kong",
+      "day": "28 OCT",
+      "name": "Repulse Bay",
+      "zh": "浅水湾",
+      "lat": 22.2371,
+      "lng": 114.196,
+      "note": ""
+    },
+    {
+      "city": "Hong Kong",
+      "day": "29 OCT",
+      "name": "Star Ferry (Victoria Harbour)",
+      "zh": "天星小轮",
+      "lat": 22.2935,
+      "lng": 114.1685,
+      "note": "One-way ride; boarding pier not specified"
+    },
+    {
+      "city": "Hong Kong",
+      "day": "29 OCT",
+      "name": "Clock Tower",
+      "zh": "尖沙咀钟楼",
+      "lat": 22.2946,
+      "lng": 114.1694,
+      "note": "Includes two designated shops"
+    },
+    {
+      "city": "Macau",
+      "day": "30 OCT",
+      "name": "Ruins of St. Paul’s",
+      "zh": "大三巴牌坊",
+      "lat": 22.1975,
+      "lng": 113.5405,
+      "note": ""
+    },
+    {
+      "city": "Macau",
+      "day": "30 OCT",
+      "name": "Penha Hill",
+      "zh": "西望洋山",
+      "lat": 22.188,
+      "lng": 113.533,
+      "note": ""
+    },
+    {
+      "city": "Macau",
+      "day": "30 OCT",
+      "name": "A-Ma Temple",
+      "zh": "妈阁庙",
+      "lat": 22.1862,
+      "lng": 113.5318,
+      "note": ""
+    },
+    {
+      "city": "Macau",
+      "day": "30 OCT",
+      "name": "Our Lady of Penha Church",
+      "zh": "主教山小堂",
+      "lat": 22.1884,
+      "lng": 113.533,
+      "note": ""
+    },
+    {
+      "city": "Shenzhen",
+      "day": "31 OCT",
+      "name": "Splendid China",
+      "zh": "锦绣中华",
+      "lat": 22.5339,
+      "lng": 113.9876,
+      "note": ""
+    },
+    {
+      "city": "Shenzhen",
+      "day": "31 OCT",
+      "name": "China Folk Culture Village",
+      "zh": "中国民俗文化村",
+      "lat": 22.534,
+      "lng": 113.98,
+      "note": "Includes two shows"
+    },
+    {
+      "city": "Shenzhen",
+      "day": "31 OCT",
+      "name": "Dongmen Market",
+      "zh": "东门老街",
+      "lat": 22.5467,
+      "lng": 114.117,
+      "note": ""
+    },
+    {
+      "city": "Shenzhen",
+      "day": "01 NOV",
+      "name": "Huaqiangbei Street",
+      "zh": "华强北",
+      "lat": 22.543,
+      "lng": 114.087,
+      "note": ""
+    },
+    {
+      "city": "Guangzhou",
+      "day": "01 NOV",
+      "name": "Yongqing Fang",
+      "zh": "永庆坊",
+      "lat": 23.115,
+      "lng": 113.2417,
+      "note": ""
+    },
+    {
+      "city": "Guangzhou",
+      "day": "01 NOV",
+      "name": "Bruce Lee’s former residence",
+      "zh": "李小龙祖居",
+      "lat": 23.123,
+      "lng": 113.242,
+      "note": "Listed in the tour document; exact site not specified"
+    },
+    {
+      "city": "Guangzhou",
+      "day": "01 NOV",
+      "name": "Dafo Temple",
+      "zh": "大佛寺",
+      "lat": 23.1297,
+      "lng": 113.27,
+      "note": ""
+    },
+    {
+      "city": "Guangzhou",
+      "day": "01 NOV",
+      "name": "Beijing Road Pedestrian Street",
+      "zh": "北京路步行街",
+      "lat": 23.1257,
+      "lng": 113.2704,
+      "note": ""
+    },
+    {
+      "city": "Guangzhou",
+      "day": "02 NOV",
+      "name": "Baima Market",
+      "zh": "白马服装市场",
+      "lat": 23.15,
+      "lng": 113.249,
+      "note": ""
+    },
+    {
+      "city": "Guangzhou",
+      "day": "02 NOV",
+      "name": "Canton Tower (photos outside)",
+      "zh": "广州塔",
+      "lat": 23.1066,
+      "lng": 113.3245,
+      "note": "Photo stop only"
+    }
+  ]
+}

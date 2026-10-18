@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta name="description" content="An open field guide for a journey through China.">
+  <title>China, in Motion — China Trip Guide</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to trip</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="China, in Motion home"><span class="brand-mark">中</span><span>FIELD NOTES <i>/</i> CHINA</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#route">The route</a><a href="#days">Day by day</a><a href="#guide">Field guide</a><a href="#checklist">Checklist</a>
+    </nav>
+    <div class="top-actions"><a class="top-date" href="#days">PUBLIC TRIP GUIDE <span>↗</span></a></div>
+  </header>
+
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-image" role="img" aria-label="Shanghai skyline at dusk"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow light">A PERSONAL FIELD GUIDE</p>
+        <h1>China,<br><em>in motion.</em></h1>
+        <p class="hero-sub">A journey of discovery.<br>Places, stories and shared moments.</p>
+        <a class="round-link" href="#route" aria-label="Explore the route">↓</a>
+      </div>
+      <div class="hero-caption">FIELD NOTES <span>OPEN TRIP GUIDE</span></div>
+      <div class="hero-stamp"><b>旅</b><span>GO<br>CURIOUSLY</span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">THE JOURNEY <span>01 / 03</span></p>
+      <div class="intro-grid">
+        <h2>From the old<br>waterways to the<br><em>edge of tomorrow.</em></h2>
+        <div class="intro-body"><p>Use this open guide to follow the route, keep the details close and make room for the unexpected.</p><p class="note"><span class="note-icon">✳</span> This guide is public. Trip details can be viewed by anyone with the link.</p></div>
+      </div>
+      <div class="stats"><div><b>旅</b><span>DISCOVER</span></div><div><b>記</b><span>REMEMBER</span></div><div><b>友</b><span>CONNECT</span></div><div><b>行</b><span>EXPLORE</span></div></div>
+    </section>
+
+    <section class="route-section" id="route">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">THE ROUTE <span>01</span></p><h2>Places along <em>the way.</em></h2></div><p class="section-side">Nine cities, from Shanghai to Guangzhou. Tap a city to see its places.</p></div>
+        <div class="map-layout">
+          <div class="map-card">
+            <div id="route-map" class="route-map-live" role="region" aria-label="Map of the route and places of interest"></div>
+            <p class="map-note">Map data © OpenStreetMap contributors. Pin positions are approximate. Amap coverage of Hong Kong and Macau is limited.</p>
+          </div>
+          <div class="route-list" id="route-list" aria-label="Cities in route order"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="days-section section-wrap" id="days">
+      <div class="section-heading"><div><p class="eyebrow">DAY BY DAY</p><h2>Find your <em>own pace.</em></h2></div><p class="section-side">A day-by-day overview of the journey.</p></div>
+      <div class="day-tabs" role="tablist" aria-label="Trip day groups"><button class="day-tab active" role="tab" aria-selected="true" data-range="1">Part one <span>Schedule</span></button><button class="day-tab" role="tab" aria-selected="false" data-range="2">Part two <span>Schedule</span></button><button class="day-tab" role="tab" aria-selected="false" data-range="3">Part three <span>Schedule</span></button></div>
+      <div class="days-grid" id="days-grid"></div>
+    </section>
+
+    <section class="guide-section" id="guide">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">A LITTLE CONTEXT</p><h2>Places with <em>layers.</em></h2></div><p class="section-side">A few threads of history and culture to carry with you.</p></div>
+        <div class="guide-grid" id="guide-grid"></div>
+      </div>
+    </section>
+
+    <section class="check-section section-wrap" id="checklist">
+      <div class="check-intro"><p class="eyebrow">BEFORE YOU GO</p><h2>Small things,<br><em>well remembered.</em></h2><p>Your checklist saves on this device as you tick things off.</p><div class="progress-wrap"><div class="progress-meta"><span>TRIP PREP</span><span id="progress-label">0 / 0 DONE</span></div><div class="progress-track"><div id="progress-bar"></div></div></div><button class="reset-button" id="reset-checklist">Reset checklist</button></div>
+      <div class="checklist" id="checklist-items"></div>
+    </section>
+
+    <section class="discussions section-wrap" id="chat-feature" hidden aria-labelledby="chat-feature-title">
+      <div class="section-heading"><div><p class="eyebrow">THE CONVERSATION</p><h2 id="chat-feature-title">Travel is better <em>shared.</em></h2></div><p class="section-side">Peer-to-peer chat is not enabled in this build.</p></div>
+    </section>
+    <section class="last-note"><div class="last-mark">旅</div><p>Go slowly enough to notice.</p><span>SAFE TRAVELS</span></section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">中</span><span>FIELD NOTES <i>/</i> CHINA</span></a><span>MADE FOR THE JOURNEY</span><a class="credits-link" href="photo-credits.html">IMAGE CREDITS</a><a href="#top">BACK TO TOP ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
