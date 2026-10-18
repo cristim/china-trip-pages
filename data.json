@@ -356,6 +356,11 @@
   },
   "tripNotes": {
     "exchangeRate": "1 USD = 26,000 VND",
+    "chinaExchangeRates": {
+      "eurToRmb": "1 EUR ≈ 7.52 RMB",
+      "usdToRmb": "1 USD ≈ 6.69 RMB",
+      "asOf": "16 October 2026"
+    },
     "guide": "A Vietnamese tour guide and an additional Chinese tour guide",
     "vietnamArrival": {
       "due": "Submit the Vietnam arrival form three days before entry; print the QR code.",

@@ -85,8 +85,9 @@ function initPage(data) {
   const notes=data.tripNotes;
   const notesBox=document.createElement('div'); notesBox.className='trip-notes';
   const connectivity=notes.connectivity;
+  const chinaRates=notes.chinaExchangeRates;
   const noteCards=[
-    ['Travel basics',`Exchange rate: ${notes.exchangeRate}.`,`${notes.guide}.`],
+    ['Travel basics',`Exchange rate: ${notes.exchangeRate}.`,`China reference rates: ${chinaRates.eurToRmb}; ${chinaRates.usdToRmb} (as of ${chinaRates.asOf}; indicative only).`,`${notes.guide}.`],
     ['Vietnam entry',`${notes.vietnamArrival.due} <a href="${notes.vietnamArrival.formUrl}" target="_blank" rel="noreferrer">Complete the arrival form ↗</a>`,`Print the QR code after submitting the form.`],
     ['Stay connected',`Wi-Fi rental: ${connectivity.wifiRental}.`,`SIM choices: ${connectivity.simOptions.join('; ')}.`],
     ['Before departure',...notes.reminders],
